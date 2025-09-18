@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Django stuff:
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (ignore everything except __init__.py)
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Local Django settings
+local_settings.py
+
+# Media & static files (optional, only if generated dynamically)
+media/
+staticfiles/
+
+# VSCode / IDE
+.vscode/
+.idea/
